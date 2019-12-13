@@ -15,9 +15,22 @@ public class Program
         foreach (char c in input)
         {
             if (message != null)
+
+            {
+
                 message += "-";
+
+            }
+
             else
+
+            {
+
+
                 message = "";
+
+            }
+
             message += c - 64;
             checksum += c;
         }
